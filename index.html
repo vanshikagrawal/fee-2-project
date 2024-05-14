@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accordion FAQ</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+</head>
+<body style="background-color: #FFFFFF;">
+
+<div class="flex flex-col max-w-3xl mx-auto mt-12 px-12 md:px-20">
+
+    <!-- Image in Center -->
+    <div class="flex justify-center mt-4 mb-4"> <!-- Added margin top and bottom for the image -->
+        <div class="w-30 h-30">
+            <img class="object-cover" src="assets/img1.webp" alt="Image Description">
+        </div>
+    </div>
+
+    <!-- Search Input -->
+    <div class="mb-4"> <!-- Added margin bottom for the search bar -->
+        <input id="searchInput" type="text" class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500" placeholder="Search...">
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div id="accordionContainer"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
